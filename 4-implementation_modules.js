@@ -1,0 +1,7 @@
+const name=require('./3-variables.js')
+const sayhello =require('./5-function.js')
+require('./6-mind_grenade')
+sayhello('ismail')
+sayhello(name.name1)
+console.log(name.name1)
+console.log(name.name2)
